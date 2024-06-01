@@ -1,0 +1,163 @@
+body {
+  background-image: url("./images/sukuna.jpeg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  font-weight: 15px;
+  object-fit: contain;
+  background-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(246, 240, 240);
+  letter-spacing: 1px;
+}
+
+#wrapper {
+  background-color: #eee;
+  width: 90%;
+  height: 100%;
+  max-width: 960px;
+  margin: 20px auto;
+  border-radius: 6px;
+  box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  padding: 0 0 20px;
+  overflow: hidden;
+  border: 1px solid lightgray;
+}
+
+h1,
+h2,
+p {
+  font-weight: normal;
+  font-size: 40px;
+}
+.page-banner h1,
+.page-banner p {
+  text-align: center;
+  width: 100%;
+  margin: 5px 0;
+}
+
+#add-anime,
+#anime-list {
+  margin: 50px;
+}
+
+#anime-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+#anime-list li {
+  border-left: 5px solid #ddd;
+  padding: 25px;
+  margin: 20px 10px;
+}
+#anime-list li:hover {
+  border-color: #9361bf;
+}
+
+.delete {
+  float: right;
+  background: #f70000;
+  color: #ffffff;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.delete:hover {
+  background: maroon;
+}
+
+#add-anime {
+  width: 400px;
+  margin: 0 auto;
+}
+#add-anime input {
+  display: block;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 300px;
+  float: left;
+  clear: both;
+}
+
+#add-anime button {
+  border: 1px solid rgb(26, 142, 225);
+  background: rgb(26, 142, 225);
+  padding: 10px 20px;
+  font-size: 14px;
+  display: inline-block;
+  width: 100px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  border-left: 0;
+  color: white;
+  margin: 20px 0;
+}
+
+#add-anime button:hover {
+  background: rgb(32, 161, 226);
+}
+
+#add-anime:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#add-anime label {
+  line-height: 52px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url("./images/sukuna.jpeg");
+    background-repeat: no-repeat;
+    background-color: #79123bf0;
+    height: fit-content;
+  }
+  
+  #wrapper {
+    background-color: #eee;
+    width: 60%;
+    height: 100%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+  }
+  .wrapper {
+    width: 100%;
+    margin: 10px auto;
+    padding: 0 0 10px;
+  }
+
+  h1,
+  h2,
+  p {
+    font-size: 30px;
+  }
+
+  #add-anime,
+  #anime-list {
+    margin: 30px;
+  }
+
+  #add-anime {
+    width: 90%;
+  }
+
+  #add-anime input {
+    width: 70%;
+  }
+
+  #add-anime button {
+    width: 25%;
+  }
+}
+
